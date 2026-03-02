@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0056b3;
+  --color-primary-hover: #004494;
+  --color-bg-light: #f8f9fa;
+  --color-text-dark: #212529;
+  --color-text-muted: #6c757d;
+}
+
+body {
+  @apply bg-bg-light text-text-dark font-sans antialiased;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
